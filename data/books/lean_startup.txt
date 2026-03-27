@@ -1,0 +1,16 @@
+Judul: The Lean Startup Principles
+Penulis: Eric Ries
+Kategori: Ringkasan Buku, Metodologi Bisnis
+
+Intisari:
+The Lean Startup adalah metodologi ilmiah untuk membangun dan mengelola startup dengan tujuan meminimalkan pemborosan waktu dan dana. Pendekatan ini menggeser fokus dari membuat rencana bisnis yang kaku menjadi eksperimen dan iterasi yang cepat berdasarkan fakta lapangan.
+
+Poin-Poin Penting:
+
+Pembelajaran yang Divalidasi (Validated Learning): Tujuan utama startup di awal bukan untuk menghasilkan keuntungan instan, melainkan untuk belajar secara valid mengenai apa yang benar-benar diinginkan pelanggan.
+
+Minimum Viable Product (MVP): Versi produk dengan fitur paling dasar yang memungkinkan tim mengumpulkan jumlah pembelajaran tervalidasi maksimum dari pelanggan dengan usaha paling minimal.
+
+Siklus Build-Measure-Learn (Buat-Ukur-Pelajari): Ini adalah inti dari Lean Startup. Mulai dari membangun MVP (Build), mengukur respons pengguna menggunakan metrik yang nyata (Measure), dan belajar dari data tersebut (Learn).
+
+Pivot atau Persevere: Berdasarkan hasil fase 'Learn', pendiri harus memutuskan secara objektif: apakah akan terus maju dengan strategi saat ini (Persevere) atau mengubah arah strategi secara mendasar namun tetap berpijak pada visi awal (Pivot).

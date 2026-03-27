@@ -1,0 +1,16 @@
+Judul: Do Things that Don't Scale
+Penulis: Paul Graham
+Kategori: Artikel, Strategi Startup
+
+Intisari:
+Saran paling fundamental bagi pendiri startup di tahap awal adalah keharusan untuk melakukan hal-hal yang tidak bisa diskalakan (do things that don't scale). Pendiri tidak bisa hanya membangun produk dan berharap pengguna datang dengan sendirinya. Pertumbuhan awal harus didorong secara manual.
+
+Poin-Poin Penting:
+
+Rekrut Pengguna Secara Manual: Pendiri harus proaktif mencari pengguna pertama satu per satu. Contohnya, pendiri Stripe mengambil laptop pengguna potensial dan langsung menginstalkan aplikasi mereka di tempat (dikenal sebagai "Collison installation").
+
+Bahagiakan Pengguna Secara Ekstrem (Delight): Di tahap awal, berikan layanan pelanggan yang sangat luar biasa dan personal, meskipun memakan waktu. Ini menciptakan loyalitas dan memberikan umpan balik (feedback) yang sangat berharga yang tidak bisa didapatkan jika startup sudah besar.
+
+Fokus pada Pasar Sempit (Niche): Lebih baik membuat produk yang sangat dicintai oleh sekelompok kecil orang, daripada membuat produk yang hanya disukai setengah hati oleh banyak orang. Kuasai target pasar yang spesifik terlebih dahulu sebelum berekspansi ke pasar yang lebih luas.
+
+Konsultasi Personal: Bertindaklah seolah-olah Anda adalah konsultan pribadi untuk pengguna pertama Anda. Dengarkan masalah mereka dan sesuaikan produk dengan kebutuhan spesifik mereka sebelum membuat fitur otomatis.

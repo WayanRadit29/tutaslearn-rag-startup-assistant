@@ -1,0 +1,13 @@
+Judul: Dropbox Growth Strategy - Simple Referral Program
+Kategori: Studi Kasus, Growth Hacking
+
+Intisari:
+Dropbox mencapai pertumbuhan yang luar biasa (tumbuh 3900% dalam 15 bulan, dari 100.000 menjadi 4 juta pengguna) bukan melalui iklan berbayar (ads) yang mahal, melainkan melalui program rujukan (referral program) yang cerdas dan terintegrasi langsung ke dalam produk mereka.
+
+Poin-Poin Penting:
+
+Hadiah Dua Arah (Two-Sided Reward): Dropbox merancang program di mana pihak yang mengundang teman dan pihak yang diundang sama-sama mendapatkan keuntungan. Jika A mengundang B, keduanya mendapat tambahan penyimpanan 500MB gratis.
+
+Hadiah Relevan (Bukan Uang): Kunci kesuksesan program ini adalah mereka memberikan nilai inti dari produk mereka (ruang penyimpanan cloud) sebagai hadiah, bukan uang tunai. Orang yang menggunakan Dropbox butuh ruang penyimpanan, sehingga insentif ini sangat memotivasi.
+
+Viral Loop: Dropbox memasukkan ajakan referral ini tepat di momen "onboarding" (saat pengguna baru mendaftar), menjadikannya siklus viral yang organik. Pengguna baru otomatis menjadi agen marketing untuk Dropbox demi mendapatkan ruang ekstra.

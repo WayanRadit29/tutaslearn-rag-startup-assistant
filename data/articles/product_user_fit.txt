@@ -1,0 +1,14 @@
+Judul: Product-User Fit Comes Before Product-Market Fit
+Penulis: Andrew Chen (a16z)
+Kategori: Artikel, Strategi Pengguna
+
+Intisari:
+Sebelum sebuah startup bermimpi untuk menaklukkan pasar yang masif (Product-Market Fit), mereka harus terlebih dahulu membuktikan bahwa ada sekelompok kecil pengguna yang benar-benar mencintai dan tidak bisa hidup tanpa produk tersebut. Tahapan fundamental ini disebut Product-User Fit.
+
+Poin-Poin Penting:
+
+Fokus pada Retensi, Bukan Akuisisi: Pertumbuhan palsu terjadi ketika startup membuang banyak uang untuk pemasaran, pengguna baru datang, tetapi langsung pergi lagi (churn). Product-User Fit ditandai dengan retensi; pengguna yang datang terus bertahan dan memakai produk secara rutin.
+
+Temukan Power Users: Jangan pedulikan jutaan orang yang tidak peduli dengan produk Anda. Fokuslah menemukan beberapa ribu (atau bahkan ratusan) "power users" yang menggunakan produk Anda setiap hari dengan sangat fanatik.
+
+Tahan Godaan untuk Tumbuh Cepat: Kesalahan terbesar adalah mencoba menskalakan bisnis (scaling) sebelum Product-User Fit tercapai. Jika produk Anda ibarat ember yang bocor, memasukkan lebih banyak air (pengguna baru melalui iklan) hanya akan membuang-buang uang. Perbaiki dulu bocornya (Product-User Fit), baru buka kerannya (Product-Market Fit).

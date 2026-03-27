@@ -1,0 +1,14 @@
+Judul: Startup = Growth
+Penulis: Paul Graham
+Kategori: Artikel, Konsep Dasar Startup
+
+Intisari:
+Startup bukanlah sekadar perusahaan yang baru didirikan atau perusahaan yang bergerak di bidang teknologi. Definisi sejati dari sebuah startup adalah "perusahaan yang dirancang untuk tumbuh dengan sangat cepat". Pertumbuhan (growth) adalah kompas utama yang menentukan apakah sebuah startup berhasil atau tidak.
+
+Poin-Poin Penting:
+
+Perbedaan dengan Bisnis Biasa: Barbershop atau restoran adalah bisnis baru, tapi bukan startup karena mereka tidak dirancang untuk menjangkau pasar nasional atau global secara instan. Startup harus membuat sesuatu yang diinginkan banyak orang dan mampu menjangkau orang-orang tersebut.
+
+Metrik Utama adalah Tingkat Pertumbuhan (Growth Rate): Pendiri startup tidak boleh hanya fokus pada angka absolut (misalnya jumlah pengguna), tetapi pada persentase pertumbuhan per minggu. Tingkat pertumbuhan yang baik dan sehat untuk startup di tahap awal (seperti di Y Combinator) adalah sekitar 5% hingga 7% per minggu.
+
+Memaksa Fokus: Jika seorang pendiri berfokus murni pada target pertumbuhan mingguan, hal itu akan memecahkan banyak masalah lain. Pertumbuhan memaksa pendiri untuk berhenti menunda-nunda, segera menyelesaikan produk, dan terus berbicara dengan pengguna agar target tercapai.

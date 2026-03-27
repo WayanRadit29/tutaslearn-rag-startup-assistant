@@ -1,0 +1,19 @@
+Judul: One Order of Operations for Starting a Startup
+Penulis: Michael Seibel / Y Combinator
+Kategori: Artikel, Panduan Tahapan
+
+Intisari:
+Banyak pendiri startup gagal karena mereka melakukan tahapan bisnis dengan urutan yang salah (misalnya, mencari investor sebelum punya produk). Artikel ini memberikan urutan operasi standar (Standard Operating Procedure) yang terbukti efektif untuk membangun startup dari nol.
+
+Poin-Poin Penting:
+Tahapan berurutan yang harus dilakukan:
+
+Ide dan Co-founder: Temukan ide awal yang menyelesaikan masalah nyata dan temukan rekan pendiri (co-founder) yang memiliki visi serta kemampuan teknis yang saling melengkapi.
+
+Buat MVP (Minimum Viable Product): Jangan membangun produk yang sempurna. Buat versi paling sederhana dari produk Anda yang bisa menunjukkan fungsi utamanya. Selesaikan MVP ini dalam hitungan minggu, bukan bulan.
+
+Peluncuran Cepat (Launch): Segera luncurkan MVP ke pasar. Jangan tunggu sempurna. Peluncuran adalah langkah pertama untuk mulai belajar dari pengguna nyata.
+
+Berbicara dengan Pengguna (Talk to Users): Setelah rilis, hubungi pengguna secara langsung. Tanyakan apa yang mereka suka, apa yang kurang, dan apakah produk tersebut benar-benar memecahkan masalah mereka.
+
+Iterasi (Iterate): Gunakan umpan balik dari pengguna untuk memperbaiki produk secara terus-menerus. Ulangi proses meluncurkan fitur dan berbicara dengan pengguna sampai Anda menemukan Product-Market Fit.

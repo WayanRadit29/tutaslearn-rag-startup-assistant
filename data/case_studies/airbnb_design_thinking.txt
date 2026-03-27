@@ -1,0 +1,13 @@
+Judul: How Design Thinking Transformed Airbnb
+Kategori: Studi Kasus, Design Thinking, Pivot
+
+Intisari:
+Pada tahun 2009, Airbnb hampir bangkrut dengan pendapatan hanya $200 per minggu. Pendiri Airbnb, dipandu oleh Paul Graham dari Y Combinator, menyadari bahwa masalah utamanya bukan pada kode program, melainkan kualitas foto listing di website yang sangat buruk dan tidak menarik minat penyewa.
+
+Poin-Poin Penting:
+
+Keluar dari Layar Komputer: Melakukan hal yang tidak berskala (Do things that don't scale). Para pendiri Airbnb terbang langsung ke New York, menyewa kamera yang bagus, mendatangi rumah-rumah tuan rumah (host), dan mengambil foto ruangan mereka secara profesional.
+
+Dampak Instan: Setelah foto-foto berkualitas tinggi diunggah, pendapatan Airbnb di New York berlipat ganda dalam waktu singkat. Ini membuktikan bahwa empati terhadap pengguna dan kualitas visual jauh lebih penting daripada algoritma di tahap tersebut.
+
+Perubahan Pola Pikir (Mindset Shift): Airbnb beralih dari kultur yang murni digerakkan oleh metrik teknis dan baris kode, menjadi perusahaan yang sangat mementingkan "Design Thinking" (berpikir ala desainer). Mereka menyadari bahwa pengalaman dan perasaan pengguna tidak selalu bisa diukur dengan angka, namun sangat menentukan kesuksesan bisnis.

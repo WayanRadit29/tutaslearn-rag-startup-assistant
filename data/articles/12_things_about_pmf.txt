@@ -1,0 +1,16 @@
+Judul: 12 Things About Product-Market Fit
+Penulis: Marc Andreessen (a16z)
+Kategori: Artikel, Product-Market Fit
+
+Intisari:
+Satu-satunya hal yang paling penting untuk kesuksesan sebuah startup adalah pasarnya (market). Tim yang brilian dengan produk yang luar biasa akan tetap gagal jika mereka beroperasi di pasar yang tidak ada atau sangat kecil. Product-Market Fit (PMF) berarti "berada di pasar yang bagus dengan produk yang dapat memuaskan pasar tersebut."
+
+Poin-Poin Penting:
+
+Pasar adalah Segalanya: Dalam pertarungan antara tim yang hebat dan pasar yang buruk, pasar akan menang. Dalam pertarungan antara tim yang buruk dan pasar yang hebat, pasar tetap akan menang.
+
+Tanda-Tanda Nyata PMF: Anda selalu bisa merasakan kapan PMF terjadi. Uang menumpuk di rekening perusahaan, Anda harus merekrut staf penjualan secepat mungkin, dan server selalu terancam down karena kelebihan beban.
+
+Tanda-Tanda Belum PMF: Anda juga tahu jika belum mencapai PMF. Siklus penjualan terlalu lama, ulasan pengguna hanya sekadar "bagus" tapi tidak antusias, dan pertumbuhan dari mulut ke mulut (word of mouth) tidak menyebar.
+
+Lakukan Apa Saja untuk PMF: Saat startup belum mencapai PMF, satu-satunya tugas adalah mencapainya. Ini termasuk melakukan hal-hal radikal seperti mengganti staf inti, merombak total produk (pivot), atau pindah ke target pasar yang benar-benar berbeda.
