@@ -3,14 +3,40 @@ Penulis: Paul Graham
 Kategori: Artikel, Strategi Startup
 
 Intisari:
-Saran paling fundamental bagi pendiri startup di tahap awal adalah keharusan untuk melakukan hal-hal yang tidak bisa diskalakan (do things that don't scale). Pendiri tidak bisa hanya membangun produk dan berharap pengguna datang dengan sendirinya. Pertumbuhan awal harus didorong secara manual.
+Startup tidak "lepas landas" dengan sendirinya seperti proyektil; mereka butuh dorongan manual yang berat dari pendirinya di awal. Strategi paling krusial adalah melakukan hal-hal yang tidak berskala (unscalable). Saran paling fundamental bagi pendiri startup di tahap awal adalah keharusan untuk melakukan hal-hal yang tidak bisa diskalakan (do things that don't scale). Pendiri tidak bisa hanya membangun produk dan berharap pengguna datang dengan sendirinya. Pertumbuhan awal harus didorong secara manual.
 
-Poin-Poin Penting:
+Poin-Poin Strategis:
 
-Rekrut Pengguna Secara Manual: Pendiri harus proaktif mencari pengguna pertama satu per satu. Contohnya, pendiri Stripe mengambil laptop pengguna potensial dan langsung menginstalkan aplikasi mereka di tempat (dikenal sebagai "Collison installation").
+Rekrutmen Pengguna Manual (Recruit):
+Jangan menunggu pengguna datang. Pendiri harus mencari mereka satu per satu.
 
-Bahagiakan Pengguna Secara Ekstrem (Delight): Di tahap awal, berikan layanan pelanggan yang sangat luar biasa dan personal, meskipun memakan waktu. Ini menciptakan loyalitas dan memberikan umpan balik (feedback) yang sangat berharga yang tidak bisa didapatkan jika startup sudah besar.
+- Contoh Stripe: Mereka menggunakan teknik "Collison Installation". Bukannya mengirim link beta lewat email, mereka langsung meminjam laptop calon pengguna dan menginstalkan Stripe di tempat.
 
-Fokus pada Pasar Sempit (Niche): Lebih baik membuat produk yang sangat dicintai oleh sekelompok kecil orang, daripada membuat produk yang hanya disukai setengah hati oleh banyak orang. Kuasai target pasar yang spesifik terlebih dahulu sebelum berekspansi ke pasar yang lebih luas.
+- Contoh Airbnb: Para pendiri pergi dari pintu ke pintu di New York untuk merekrut tuan rumah (host) dan membantu mereka memperbaiki listing secara manual.
 
-Konsultasi Personal: Bertindaklah seolah-olah Anda adalah konsultan pribadi untuk pengguna pertama Anda. Dengarkan masalah mereka dan sesuaikan produk dengan kebutuhan spesifik mereka sebelum membuat fitur otomatis.
+Fragilitas (Kerapuhan) Awal:
+Startup di tahap awal sangat rapuh. Kesalahan fatal pendiri adalah menilai startup mereka yang masih bayi dengan standar perusahaan raksasa. Hampir semua raksasa teknologi (seperti Microsoft atau Airbnb) terlihat tidak meyakinkan dan sangat kecil di awal. Kunci keberhasilan bukan "apakah perusahaan ini menguasai dunia sekarang?", tapi "seberapa besar ini bisa tumbuh jika pendiri melakukan hal yang benar?".
+
+Menyenangkan Pengguna (Delight):
+Berikan pengalaman yang "Insanely Great" (Luar Biasa Gila).
+
+Contoh Wufoo: Mengirimkan kartu ucapan terima kasih tulisan tangan kepada setiap pengguna baru.
+
+Keuntungan Menjadi Kecil: Tim Cook (Apple) tidak bisa mengirim surat tangan ke setiap pembeli laptop, tapi pendiri startup bisa. Gunakan keunggulan "menjadi kecil" untuk memberikan layanan yang tidak bisa diberikan perusahaan besar.
+
+Strategi Api Terkendali (Contained Fire):
+Mulailah dari pasar yang sangat sempit untuk membangun "massa kritis".
+
+Contoh Facebook: Awalnya hanya untuk mahasiswa Harvard. Fokus pada pasar kecil membuat pengguna merasa produk tersebut memang dibuat khusus untuk mereka.
+
+Teknik "Pulling a Meraki" & Manual:
+
+Hardware: Rakitlah perangkatmu sendiri di awal (seperti yang dilakukan Meraki dan Pebble) untuk memahami detail produksi.
+
+Software: Jadilah "software" itu sendiri. Lakukan secara manual di belakang layar apa yang nantinya akan dilakukan oleh kode. Stripe awalnya mendaftarkan akun merchant pengguna secara manual di belakang sistem yang terlihat otomatis.
+
+Bahaya "Big Launch":
+Peluncuran besar (Big Launch) atau kemitraan dengan perusahaan besar biasanya tidak berhasil memberikan pertumbuhan yang berkelanjutan. Yang menentukan kesuksesan bukan seberapa banyak orang yang tahu saat peluncuran, tapi seberapa bahagia pengguna awal yang sedikit tersebut.
+
+Konsep Vektor Startup:
+Ide startup bukan sekadar "apa yang dibangun" (skalar), tapi sebuah "vektor" yang terdiri dari: [Apa yang dibangun] + [Hal tidak berskala yang dilakukan di awal untuk memulai].
