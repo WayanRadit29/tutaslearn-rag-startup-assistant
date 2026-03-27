@@ -1,16 +1,31 @@
-Judul: Users You Don't Want
-Penulis: Michael Seibel / Y Combinator
-Kategori: Artikel, Manajemen Pengguna
+Judul: Users You Don’t Want
+Penulis: Michael Seibel (Y Combinator)
+Kategori: Artikel, Strategi Produk, Manajemen Pengguna
 
 Intisari:
-Sebuah kesalahan umum di kalangan pendiri startup awal adalah keyakinan bahwa "semua pengguna adalah pengguna yang baik". Kenyataannya, ada tipe pengguna tertentu yang sangat beracun bagi startup dan dapat menghabiskan sumber daya (waktu, tenaga, emosi) tanpa memberikan nilai jangka panjang.
+Kesalahan umum startup pemula adalah menerima semua jenis pengguna yang datang. Michael Seibel memperkenalkan konsep "Hijacker Users" (Pengguna Pembajak), yaitu orang-orang yang mencoba menggunakan produk Anda untuk menyelesaikan masalah yang tidak berniat Anda selesaikan. Fokus pada masalah spesifik adalah kunci mencapai Product-Market Fit (PMF).
 
-Poin-Poin Penting:
+Poin-Poin Strategis:
 
-Pengguna yang Menguras Waktu: Pengguna yang terus-menerus meminta dukungan pelanggan secara berlebihan, komplain tanpa henti, namun membayar sangat murah atau gratis. Mereka membuat tim kehilangan fokus dari mengembangkan produk.
+Mengenal "Hijacker Users":
+Pengguna ini seringkali menarik startup keluar dari jalur utamanya.
 
-Pengguna yang Meminta Fitur Khusus: Klien (biasanya perusahaan besar) yang menjanjikan kontrak besar tetapi mensyaratkan startup untuk membangun fitur kustom yang hanya berguna bagi perusahaan mereka saja. Ini mengubah startup dari perusahaan produk menjadi perusahaan konsultan IT.
+Contoh: Jika Anda membangun "Uber untuk Babysitter" dengan target anak usia 4-12 tahun, Anda menggunakan pengasuh tanpa pelatihan khusus agar harga terjangkau. Jika orang tua bayi (infant) mendaftar, mereka butuh layanan yang berbeda total. Anda tidak perlu mengubah bisnis hanya karena ada satu pelanggan meminta sesuatu yang tidak Anda tawarkan.
 
-Pengguna yang Melanggar Aturan: Pengguna yang menggunakan produk untuk tujuan yang melanggar hukum, etika, atau syarat ketentuan.
+Jebakan Bisnis Konsultasi:
+Menuruti setiap permintaan khusus pengguna akan mengubah startup teknologi menjadi "Bisnis Konsultasi". Startup teknologi harus membangun solusi yang bisa diskalakan (scalable) untuk banyak orang, bukan menyelesaikan masalah satu per satu untuk individu secara unik.
 
-Tindakan yang Harus Diambil: Pendiri harus berani "memecat" pengguna yang buruk. Belajar berkata "Tidak" adalah kunci keberhasilan, agar tim dapat fokus melayani pengguna inti yang benar-benar mendapatkan nilai dari produk utama startup.
+Kapan Harus Mendengarkan "Hijacker"?:
+Terkadang pengguna pembajak menunjukkan peluang yang lebih besar. Sebelum memutuskan pindah haluan (pivot), ajukan pertanyaan ini:
+- Apakah pengguna ini mewakili kelompok besar?
+- Apakah biaya operasional (ekonomi bisnis) akan hancur jika melayani mereka?
+- Apakah ini peluang tumbuh yang lebih baik?
+
+Belajar Mengatakan "Tidak":
+Menjadi baik dalam layanan pelanggan (customer service) bukan berarti melayani setiap orang. Beranilah mengatakan "Tidak" dengan sopan kepada pengguna yang tidak sesuai target. Sampaikan bahwa Anda sedang fokus memecahkan masalah lain.
+
+Bet Pada Kebahagiaan Kelompok Kecil:
+Di hari-hari awal, lebih baik membuat sekelompok kecil orang merasa sangat bahagia (very happy) daripada membuat banyak orang merasa setengah bahagia (half-happy). Jika Anda membiarkan setiap pengguna mengarahkan rencana produk (roadmap), Anda akan berakhir dengan produk buruk yang hanya menyelesaikan setengah masalah bagi banyak orang.
+
+Pelajaran dari Justin.tv ke Twitch:
+Justin.tv menyadari bahwa pengguna kategori video game adalah kelompok kecil tapi konsisten. Melayani mereka tidak menambah biaya bandwith secara signifikan, tapi membuka peluang iklan yang jauh lebih besar (advertiser lebih suka konten game daripada konten umum). Ini adalah contoh "mendengarkan hijacker" yang tepat.
