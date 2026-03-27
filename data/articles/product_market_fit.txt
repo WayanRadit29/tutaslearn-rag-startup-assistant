@@ -1,21 +1,4 @@
 Judul: The Real Product Market Fit
-Penulis: Michael Seibel
-Kategori: Artikel, Validasi Produk
-
-Intisari:
-Product-Market Fit (PMF) adalah momen krusial di mana sebuah produk benar-benar diterima oleh pasar. Banyak pendiri merasa mereka sudah mencapai PMF hanya karena beberapa orang menyukai produk mereka, padahal PMF yang sebenarnya ditandai dengan permintaan yang sangat meledak dan hampir tidak terkendali.
-
-Poin-Poin Penting:
-
-Definisi PMF: PMF terjadi ketika pasar secara aktif "menarik" (pull) produk dari startup Anda, bukan lagi Anda yang bersusah payah "mendorong" (push) produk ke pasar.
-
-Tanda-Tanda Belum PMF: Jika pendiri masih harus bekerja keras menyuruh orang memakai produk, pengguna tidak kembali, atau pertumbuhan masih melambat, itu artinya startup belum menemukan PMF. Jangan menambah karyawan pemasaran di tahap ini.
-
-Tanda-Tanda Sudah PMF: Server sering down karena terlalu banyak yang mengakses, uang masuk lebih cepat dari yang bisa dihitung, dan fokus utama tim berubah menjadi sekadar menjaga agar sistem tidak hancur akibat lonjakan pengguna.
-
-Sebelum PMF: Fokus utama startup HANYA dua hal: menulis kode (membangun produk) dan berbicara dengan pengguna. Abaikan hal lain seperti mencari panggung konferensi atau strategi PR.
-
-Judul: The Real Product Market Fit
 Penulis: Michael Seibel (Y Combinator)
 Kategori: Artikel, Validasi Produk, Strategi Pertumbuhan
 
@@ -31,6 +14,12 @@ Mengutip Marc Andreessen, PMF adalah kondisi di mana:
 - Uang dari pelanggan menumpuk di rekening perusahaan.
 - Anda harus merekrut staf bantuan (support) dan penjualan secepat mungkin hanya untuk bertahan hidup.
 Kesimpulan: PMF ditandai dengan tim yang "panik" dan kewalahan menangani lonjakan pengguna yang setia dan membayar.
+
+Tanda-Tanda Belum PMF: Jika pendiri masih harus bekerja keras menyuruh orang memakai produk, pengguna tidak kembali, atau pertumbuhan masih melambat, itu artinya startup belum menemukan PMF. Jangan menambah karyawan pemasaran di tahap ini.
+
+Tanda-Tanda Sudah PMF: Server sering down karena terlalu banyak yang mengakses, uang masuk lebih cepat dari yang bisa dihitung, dan fokus utama tim berubah menjadi sekadar menjaga agar sistem tidak hancur akibat lonjakan pengguna.
+
+Sebelum PMF: Fokus utama startup HANYA dua hal: menulis kode (membangun produk) dan berbicara dengan pengguna. Abaikan hal lain seperti mencari panggung konferensi atau strategi PR.
 
 Sinyal Palsu vs Sinyal Nyata:
 Sinyal Palsu: Jumlah karyawan yang banyak atau mendapatkan pendanaan besar (funding). Ini bukan bukti PMF.
