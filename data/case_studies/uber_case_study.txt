@@ -1,0 +1,23 @@
+Judul: What’s Fueling Uber’s Growth Engine  
+Kategori: Studi Kasus, Growth Strategy  
+
+Intisari:  
+Uber membangun pertumbuhan dengan fokus pada pengalaman pengguna yang sangat mulus (seamless), memanfaatkan word-of-mouth, dan mengeksekusi strategi ekspansi lokal secara agresif. Mereka tidak mengandalkan marketing tradisional, tetapi menciptakan demand melalui pengalaman produk yang superior dan efek jaringan.  
+
+Poin-poin penting:  
+
+Solusi problem nyata: Uber menyelesaikan masalah transportasi yang tidak efisien dengan menghadirkan aplikasi on-demand berbasis GPS dan sistem pembayaran cashless.  
+
+Experience-driven growth: Kemudahan penggunaan menjadi faktor utama dalam retensi dan akuisisi pengguna, di mana pengguna dapat melakukan pemesanan, melacak driver secara real-time, dan menyelesaikan perjalanan dengan mudah dalam satu alur yang terintegrasi.  
+
+Word-of-mouth dominan: Sekitar 95% pengguna awal Uber berasal dari rekomendasi pengguna lain, bukan dari iklan berbayar.  
+
+Event-based acquisition: Uber memanfaatkan berbagai event seperti pesta, nightlife, dan konferensi untuk menciptakan demand awal di suatu wilayah.  
+
+City-by-city expansion: Uber tidak melakukan ekspansi secara langsung ke banyak kota, tetapi fokus menaklukkan satu kota terlebih dahulu sebelum berekspansi ke kota lain.  
+
+Local playbook: Setiap kota memiliki strategi yang berbeda, termasuk dalam hal regulasi, ketersediaan driver, dan permintaan pengguna.  
+
+Supply-demand balance: Pertumbuhan dijaga dengan memastikan keseimbangan antara jumlah driver sebagai supply dan jumlah pengguna sebagai demand.  
+
+Network effects: Semakin banyak driver yang tersedia akan menurunkan waktu tunggu pengguna, yang kemudian menarik lebih banyak pengguna baru, dan pada akhirnya kembali menarik lebih banyak driver ke dalam sistem.  
