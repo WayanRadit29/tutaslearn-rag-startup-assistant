@@ -3,7 +3,7 @@ import json
 from llama_index.core import VectorStoreIndex, Document, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
-JSONL_PATH = "data/chunk/hunk1.jsonl"
+JSONL_PATH = "data/chunk/chunk1.jsonl"
 STORAGE_DIR = "storage"
 
 
