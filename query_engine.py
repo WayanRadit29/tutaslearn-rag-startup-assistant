@@ -27,7 +27,7 @@ def load_query_engine():
 
     # Ambil 2 source paling relevan dulu biar ringan
     query_engine = index.as_query_engine(
-        similarity_top_k=2
+        similarity_top_k=1
     )
 
     return query_engine
