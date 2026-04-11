@@ -25,9 +25,9 @@ def load_query_engine():
     )
     index = load_index_from_storage(storage_context)
 
-    # Ambil 2 source paling relevan dulu biar ringan
+    # Ambil n source paling relevan dulu biar ringan
     query_engine = index.as_query_engine(
-        similarity_top_k=1
+        similarity_top_k=3
     )
 
     return query_engine
