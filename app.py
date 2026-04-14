@@ -544,8 +544,7 @@ with st.form(key="search_form", clear_on_submit=True, enter_to_submit=True):
 # the value at this point (before clear_on_submit takes effect on next render).
 if submitted and st.session_state.main_query.strip():
     active_query = st.session_state.main_query.strip()
-    # clear the key so the form input appears empty
-    st.session_state.main_query = ""
+    
 
     st.session_state.messages.append({"role": "user", "content": active_query})
 
