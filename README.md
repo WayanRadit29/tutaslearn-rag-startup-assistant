@@ -175,9 +175,9 @@ streamlit run app.py
 
 ## Team
 
-* Backend and Integration: [Your Name]
-* Data and Evaluation: [Member Name]
-* UI and Experience: [Member Name]
+* Backend and Integration: Wayan Raditya Putra
+* Data and Evaluation: Salsabila Hana Adniah
+* UI and Experience: Ustu Bina Syahdiba
 
 ---
 
