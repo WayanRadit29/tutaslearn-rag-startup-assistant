@@ -3,7 +3,7 @@ import json
 from llama_index.core import VectorStoreIndex, Document, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 
-JSONL_PATH = "data/chunk/chunk1.jsonl"
+JSONL_PATH = "data/chunk/chunk_result.jsonl"
 STORAGE_DIR = "storage"
 
 
@@ -23,7 +23,7 @@ def load_chunks_from_jsonl(jsonl_path):
                 print(f"[WARNING] Baris {line_number} bukan JSON valid, dilewati.")
                 continue
 
-            content = item.get("content", "").strip()
+            content = item.get("text", "").strip()
 
             if not content:
                 print(f"[WARNING] Baris {line_number} tidak punya 'content', dilewati.")

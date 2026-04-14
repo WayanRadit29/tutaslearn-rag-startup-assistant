@@ -1,43 +1,94 @@
 from llama_index.core import StorageContext, load_index_from_storage, Settings
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.ollama import Ollama
+from llama_index.core.prompts import PromptTemplate
+import streamlit as st
 
 STORAGE_DIR = "storage"
 EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 OLLAMA_MODEL_NAME = "llama3.2:1b"
 
+QA_PROMPT = PromptTemplate(
+"""
+Kamu adalah asisten belajar startup.
 
-def load_query_engine():
-    # Embedding harus sama dengan saat build index
+Tugas kamu adalah menjawab pertanyaan HANYA berdasarkan konteks yang diberikan.
+
+ATURAN WAJIB:
+- Gunakan hanya informasi dari konteks.
+- DILARANG menambahkan informasi di luar konteks.
+- Jika tidak ada di konteks, jangan menebak.
+- Gunakan bahasa Indonesia yang sederhana, jelas, dan natural.
+- Hindari kata-kata aneh atau tidak umum.
+- Jawaban harus langsung ke inti, tidak bertele-tele.
+
+PENTING:
+Jawaban harus disesuaikan dengan jenis pertanyaan:
+
+1. Jika pertanyaan DEFINISI:
+→ Jawab dengan 2–3 kalimat yang jelas dan langsung.
+
+2. Jika pertanyaan TANDA / CIRI:
+→ Jawab dalam bentuk poin-poin (bullet points), maksimal 4 poin.
+
+3. Jika pertanyaan ALASAN / KENAPA:
+→ Jelaskan singkat (2–4 kalimat).
+
+4. Jika pertanyaan STUDI KASUS / PENJELASAN:
+→ Jawab lebih detail (4–6 kalimat)
+→ Jelaskan urutan kejadian atau insight utama
+→ Tetap hanya dari konteks
+
+ATURAN TAMBAHAN:
+- Jangan mengulang pertanyaan.
+- Jangan mencampur definisi dengan tanda jika tidak diminta.
+- Jangan menambahkan opini pribadi.
+- Jangan mengarang contoh baru.
+
+Jika konteks tidak cukup:
+Jawab: "Informasi pada dokumen belum cukup untuk menjawab pertanyaan ini."
+
+Konteks:
+---------------------
+{context_str}
+---------------------
+
+Pertanyaan:
+{query_str}
+
+Jawaban:
+"""
+)
+
+@st.cache_resource
+def get_query_engine():
     Settings.embed_model = HuggingFaceEmbedding(
         model_name=EMBED_MODEL_NAME
     )
 
-    # LLM lokal dari Ollama
     Settings.llm = Ollama(
         model=OLLAMA_MODEL_NAME,
         request_timeout=180.0
     )
 
-    # Load index dari folder storage
     storage_context = StorageContext.from_defaults(
         persist_dir=STORAGE_DIR
     )
     index = load_index_from_storage(storage_context)
 
-    # Ambil n source paling relevan dulu biar ringan
     query_engine = index.as_query_engine(
-        similarity_top_k=3
+        similarity_top_k=3,
+        text_qa_template=QA_PROMPT,
     )
 
     return query_engine
 
 
 def ask_question(question: str):
-    query_engine = load_query_engine()
+    query_engine = get_query_engine()
     response = query_engine.query(question)
 
-    answer = str(response)
+    answer = str(response).strip()
 
     sources = []
     if hasattr(response, "source_nodes"):
@@ -48,36 +99,16 @@ def ask_question(question: str):
                 "metadata": node.metadata
             })
 
+    # fallback sederhana kalau source terlalu lemah
+    if sources:
+        best_score = sources[0]["score"]
+        if best_score is not None and best_score < 0.45:
+            answer = (
+                "Saya belum menemukan konteks yang cukup kuat di dokumen untuk menjawab "
+                "pertanyaan ini dengan yakin. Coba buat pertanyaannya lebih spesifik."
+            )
+
     return {
         "answer": answer,
         "sources": sources
     }
-
-
-if __name__ == "__main__":
-    print("=== Startup Knowledge Assistant ===")
-    question = input("Masukkan pertanyaan: ").strip()
-
-    if not question:
-        print("Pertanyaan tidak boleh kosong.")
-    else:
-        result = ask_question(question)
-
-        print("\n=== JAWABAN ===")
-        print(result["answer"])
-
-        print("\n=== SOURCES ===")
-        if not result["sources"]:
-            print("Tidak ada source ditemukan.")
-        else:
-            for i, source in enumerate(result["sources"], start=1):
-                metadata = source["metadata"]
-
-                print(f"\nSource {i}")
-                print(f"Score    : {source['score']}")
-                print(f"ID       : {metadata.get('id', '-')}")
-                print(f"Title    : {metadata.get('title', '-')}")
-                print(f"Source   : {metadata.get('source', '-')}")
-                print(f"Category : {metadata.get('category', '-')}")
-                print(f"Tags     : {metadata.get('tags', '-')}")
-                print(f"Text     : {source['text'][:250]}...")
