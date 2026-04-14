@@ -485,6 +485,7 @@ st.markdown("""
 
 /* ── Streamlit overrides ── */
 .stSpinner > div > div { border-top-color: var(--accent) !important; }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -521,53 +522,30 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ─── SEARCH INPUT ───────────────────────────────────────────────
-col_query, col_btn = st.columns([1, 0.12], gap="small")
-with col_query:
-    query = st.text_input(
-        "search",
-        placeholder="e.g. What is product-market fit and how do I know if I have it?",
-        label_visibility="collapsed",
-        key="main_query",
-    )
-with col_btn:
-    ask_btn = st.button("Ask", use_container_width=True)
-
-# ─── EXAMPLE QUESTION CHIPS ─────────────────────────────────────
-EXAMPLE_QUERIES = [
-    "What is product-market fit?",
-    "How do I know if I have product-market fit?",
-    "Things that don't scale in startups",
-    "What is the lean startup methodology?",
-    "How did Airbnb find product-market fit?",
-    "Dropbox growth hacking strategy",
-    "Order of operations for a new startup",
-    "Users you don't want",
-]
-
-if "run_query" not in st.session_state:
-    st.session_state.run_query = False
-if "query_value" not in st.session_state:
-    st.session_state.query_value = ""
-
-for eq in EXAMPLE_QUERIES:
-    chip_key = f"chip_{eq.replace(' ', '_').replace('?', '')}"
-    if st.button(eq, key=chip_key, help=eq):
-        st.session_state.query_value = eq
-        st.session_state.run_query = True
-        st.rerun()
-
-# ─── INIT SESSION STATE ─────────────────────────────────────────
+# ─── SEARCH INPUT (Enter key submits via st.form) ────────────────
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Handle chip-triggered queries
-active_query = st.session_state.query_value if st.session_state.run_query else query
-submit_triggered = ask_btn or st.session_state.run_query
+# st.form with enter_to_submit=True: Enter key OR Ask button both submit
+# clear_on_submit=True clears the text_input after submission
+with st.form(key="search_form", clear_on_submit=True, enter_to_submit=True):
+    col_query, col_btn = st.columns([1, 0.12], gap="small")
+    with col_query:
+        st.text_input(
+            "search",
+            placeholder="Ask about startups, product-market fit, growth strategy…",
+            label_visibility="collapsed",
+            key="main_query",
+        )
+    with col_btn:
+        submitted = st.form_submit_button("Ask", use_container_width=True)
 
-if submit_triggered and active_query:
-    st.session_state.run_query = False
-    st.session_state.query_value = ""
+# Form submission triggers a re-run. st.session_state.main_query still holds
+# the value at this point (before clear_on_submit takes effect on next render).
+if submitted and st.session_state.main_query.strip():
+    active_query = st.session_state.main_query.strip()
+    # clear the key so the form input appears empty
+    st.session_state.main_query = ""
 
     st.session_state.messages.append({"role": "user", "content": active_query})
 
@@ -602,9 +580,6 @@ if submit_triggered and active_query:
         })
 
     st.rerun()
-
-elif submit_triggered and not active_query.strip():
-    st.warning("Please enter a question before asking.")
 
 # ─── DISPLAY CHAT HISTORY ──────────────────────────────────────
 for msg in st.session_state.messages:

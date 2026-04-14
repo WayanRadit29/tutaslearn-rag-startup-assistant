@@ -3,10 +3,12 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.ollama import Ollama
 from llama_index.core.prompts import PromptTemplate
 import streamlit as st
+import os
 
 STORAGE_DIR = "storage"
 EMBED_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 OLLAMA_MODEL_NAME = "llama3.2:1b"
+OLLAMA_BASE_URL = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
 
 QA_PROMPT = PromptTemplate(
 """
@@ -68,6 +70,7 @@ def get_query_engine():
 
     Settings.llm = Ollama(
         model=OLLAMA_MODEL_NAME,
+        base_url=OLLAMA_BASE_URL,
         request_timeout=180.0
     )
 

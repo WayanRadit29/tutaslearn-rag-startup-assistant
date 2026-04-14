@@ -48,7 +48,8 @@ Curated Dataset (Articles, Case Studies, Book Summary)
 
 * Python
 * LlamaIndex
-* OpenAI API (Embeddings and LLM)
+* Ollama (`llama3.2:1b`) — local LLM, no API key needed
+* HuggingFace Embeddings (`all-MiniLM-L6-v2`) — local embeddings
 * Streamlit
 * Local Vector Store
 
@@ -99,34 +100,46 @@ All documents are structured for efficient retrieval and minimal noise.
 
 ## How to Run
 
-### 1. Clone the repository
+### Option A — Docker (Recommended)
 
 ```bash
-git clone https://github.com/your-username/tutaslearn-rag-startup-assistant.git
-cd tutaslearn-rag-startup-assistant
+# 1. Build & start everything (app + Ollama)
+docker compose up -d --build
+
+# 2. On first run, pull the model into Ollama (one-time, ~1.3 GB)
+docker compose exec ollama ollama pull llama3.2:1b
+
+# 3. Open in browser
+open http://localhost:8501
+
+# Stop
+docker compose down
 ```
 
-### 2. Install dependencies
+> **Note:** The first startup takes ~1–2 minutes while Ollama loads the model. GPU is automatically used if available (NVIDIA Docker runtime). Without GPU, it still works but is slower.
+
+### Option B — Local (No Docker)
+
+#### 1. Prerequisites
+- Python 3.11+
+- [Ollama](https://ollama.com/) installed and running
+- Pull the model: `ollama pull llama3.2:1b`
+
+#### 2. Clone & install
 
 ```bash
+git clone https://github.com/WayanRadit29/tutaslearn-rag-startup-assistant.git
+cd tutaslearn-rag-startup-assistant
 pip install -r requirements.txt
 ```
 
-### 3. Set up environment variables
-
-Create a `.env` file and add:
-
-```
-OPENAI_API_KEY=your_api_key_here
-```
-
-### 4. Build the index
+#### 3. Build the index (first time only)
 
 ```bash
 python build_index.py
 ```
 
-### 5. Run the application
+#### 4. Run
 
 ```bash
 streamlit run app.py

@@ -1,0 +1,46 @@
+services:
+  # ── Ollama (Local LLM) ──────────────────────────────────────────
+  ollama:
+    image: ollama/ollama:latest
+    container_name: tutaslearn-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      # Auto-pull and keep model loaded on startup
+      OLLAMA_MODELS: /root/.ollama/models
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    # GPU support (remove if running without GPU)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  # ── TutasLearn Streamlit App ────────────────────────────────────
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: tutaslearn-app
+    ports:
+      - "8501:8501"
+    environment:
+      # Point to the ollama container (Docker network DNS)
+      OLLAMA_BASE_URL: "http://ollama:11434"
+    depends_on:
+      ollama:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
+    driver: local
